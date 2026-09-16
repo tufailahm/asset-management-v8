@@ -8,6 +8,7 @@ class AssetManagementV8ApplicationTests {
 
     @Test
     void contextLoads() {
+        
     }
 
 }

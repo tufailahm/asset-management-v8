@@ -15,4 +15,9 @@ public class HelloController {
     public String hello(){
         return "Hello OFSS";
     }
+
+@RequestMapping("getStatus")    //localhost:7072/hello?username=riya
+public String getStatus(){
+    return "App status is : Up and Running";
+}
 }
