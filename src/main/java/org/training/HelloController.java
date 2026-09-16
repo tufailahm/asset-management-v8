@@ -10,4 +10,9 @@ public class HelloController {
     public String hello(@RequestParam("username")String username ){
         return "Hello : "+username + "  Current Date and time is :"+new java.util.Date();
     }
+
+    @RequestMapping("greet")    //localhost:7072/hello?username=riya
+    public String hello(){
+        return "Hello OFSS";
+    }
 }
